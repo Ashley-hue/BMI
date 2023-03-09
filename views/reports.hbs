@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BMI reports</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href = "/">Home</a></li>
+                <li><a href="/results">Results</a></li>                
+                <li><a href="/reports">Reports</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    {{jsonStuff}}
+</body>
+</html>
+
+{{!-- should have the average of the BMIs that have been entered. If a new record is entered it should calculate the new average again --}}

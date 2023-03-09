@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Tilt+Neon&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Tilt Neon', cursive;
+    font-weight: 400;
+    text-decoration: none;
+    background-image: url("../img/bg.jpg");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: darkcyan;
+}
+
+.logo{
+    cursor: pointer;
+    height: 50px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 26px;
+    cursor: pointer;
+    color: white;
+}
+
+.nav_links li a:hover {
+    color: greenyellow;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+}
+
+label {
+    padding: 0 20px;
+}
+
+p {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 9px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(63, 15, 153);
+}
+
+input {
+    padding: 0px 10px;
+}
+
+
