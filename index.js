@@ -1,7 +1,7 @@
 const { response } = require('express');
 const express = require('express'); //importing express js module into our application
 const app = express(); //initializing the app using express
-const port = 3000;
+const port = process.env.PORT || 3000;
 const fs = require('fs')
 var bodyParser = require('body-parser');
 
@@ -53,5 +53,5 @@ app.get('/get-bmi',(_,response)=>{
 })
     
 
-app.listen(port, () => console.log('server is listening on port 3000'));
+app.listen(port, () => console.log(`server is listening on port ${port}`));
 
